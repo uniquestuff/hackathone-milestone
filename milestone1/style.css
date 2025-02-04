@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: rgb(226, 43, 156);
+}
+
+.heading{
+    color:#4b920c;
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.mainn{
+    max-width: 80%;
+    margin:  auto;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgdJ_RTHR1miz557Q1pXqSXOVlR5Bv7NxyEiCKZkXhg9vKxeDyu9oj6kU&s);
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 100px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.personal{
+    color:#a1dd39;
+    background-color: #0c6392;
+    text-align: center;
+    padding: 15px;
+    font-size: xx-large;
+}
+.forpic{
+    color:#0c6392;
+
+}
+
+.input[type="file"]{
+    font-size:18px;
+    padding: 10px;
+    width: 240px;
+    background-color: aliceblue;
+    border-radius:30px;
+    margin-top:20px;
+
+}
+ input[type="file"]::file.selector-button{
+    background-color: #a1dd39;
+    cursor: pointer;
+    font-size: large;
+    color:aquamarine;
+    border-color: #920c3b;
+    border-radius: 10px;
+
+ }
+ form{
+    margin-bottom: 40px;
+
+ }
+ input,textarea{
+    display: black;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    background-color: bisque;
+    border-width: 3px;
+
+
+ }
